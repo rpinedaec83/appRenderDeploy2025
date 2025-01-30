@@ -1,5 +1,5 @@
 exports.allAccess = (req,res)=>{
-    res.status(200).send('Contenido Publico desde la nube');
+    res.status(200).send('Contenido Publico desde la nube de render');
 }
 
 exports.userBoard = (req,res)=>{
