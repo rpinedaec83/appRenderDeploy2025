@@ -3,7 +3,7 @@ exports.allAccess = (req,res)=>{
 }
 
 exports.userBoard = (req,res)=>{
-    res.status(200).send('Contenido de usuario');
+    res.status(200).send('Contenido de usuario desde la nube de render');
 }
 
 exports.moderatorBoard = (req,res)=>{
